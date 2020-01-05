@@ -1,0 +1,1 @@
+conda env export --no-builds -n my_conda | wsl grep -v "prefix" 
